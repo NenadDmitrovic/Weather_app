@@ -10,9 +10,8 @@ body {
 }
 
 #card {
-  width: 60%;
-  max-width: 470px;
-  height: 600px;
+  width: 100%;
+  height: 100vh;
   background: linear-gradient(135deg, #74b4e2, #5b548a);
   color: #fff;
   margin: 50px auto;
@@ -22,7 +21,7 @@ body {
 }
 
 #header {
-  line-height: 15px;
+  font-size: 28px;
   color: #2f2762;
 }
 
@@ -33,12 +32,11 @@ body {
 #days {
   display: flex;
   flex-direction: column;
-  padding: 15px;
   border-radius: 20px;
   border: 1px solid #2f2762;
-  height: 150px;
-  width: 80px;
   color: #2f2762;
+  font-size: 20px;
+  padding: 10px;
 }
 
 #days img {
@@ -49,8 +47,9 @@ body {
   margin-top: 25px;
   background-color: rgba(28, 53, 177, 0.2);
   border: none;
-  padding: 10px;
+  padding: 20px;
   border-radius: 25px;
+  font-size: 18px;
 }
 
 /********************OSTALI GRADOVI***************************/
@@ -64,14 +63,15 @@ body {
   padding: 10px;
   border: none;
   border-radius: 25px;
+  font-size: 18px;
 }
 #search {
   margin-top: 15px;
   border: none;
-  padding: 10px;
+  padding: 15px;
   border-radius: 25px;
-  width: 100px;
   background-color: rgba(28, 53, 177, 0.2);
+  font-size: 18px;
 }
 #grad {
   display: none;
@@ -83,7 +83,24 @@ body {
   align-items: center;
   padding: 10px;
   background-color: rgba(28, 53, 177, 0.2);
+  font-size: 20px;
 }
 #grad img {
   max-width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  #card {
+    width: 80%;
+    height: 80vh;
+    background: linear-gradient(135deg, #74b4e2, #5b548a);
+    border-radius: 20px;
+    padding: 40px 35px;
+  }
+  #footer {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: 0 auto;
+  }
 }
