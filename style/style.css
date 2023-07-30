@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #222;
+}
+
+#card {
+  width: 60%;
+  max-width: 470px;
+  background: linear-gradient(135deg, #00feba, #5b548a);
+  color: #fff;
+  margin: 100px auto 0;
+  border-radius: 20px;
+  padding: 40px 35px;
+  text-align: center;
+}
+
+#header {
+  line-height: 15px;
+  color: #2f2762;
+}
+
+#footer {
+  display: flex;
+  justify-content: space-between;
+}
+#days {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  border-radius: 20px;
+  border: 1px solid #2f2762;
+  height: 150px;
+  width: 80px;
+  color: #2f2762;
+}
+
+#days img {
+  max-width: 100%;
+}
+
+#dugme button {
+  margin-top: 25px;
+  background-color: rgba(28, 53, 177, 0.2);
+  border: none;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+/********************OSTALI GRADOVI***************************/
+#secondpage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#secondpage input {
+  padding: 10px;
+  border: none;
+  border-radius: 25px;
+}
+#search {
+  margin-top: 15px;
+  border: none;
+  padding: 10px;
+  border-radius: 25px;
+  width: 100px;
+  background-color: rgba(28, 53, 177, 0.2);
+}
+#grad {
+  display: none;
+  margin-top: 15px;
+  flex-direction: column;
+  color: #2f2762;
+  border-radius: 25px;
+  width: 250px;
+  align-items: center;
+  padding: 10px;
+  background-color: rgba(28, 53, 177, 0.2);
+}
+#grad img {
+  max-width: 100%;
+}
