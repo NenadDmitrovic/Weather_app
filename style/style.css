@@ -31,7 +31,6 @@ body {
 #days {
   display: flex;
   flex-direction: column;
-  border-radius: 20px;
   background: linear-gradient(135deg, #6c92ae, #9e96d1);
   border: 1px solid #2f2762;
   color: #2f2762;
