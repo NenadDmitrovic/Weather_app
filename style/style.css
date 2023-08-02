@@ -4,21 +4,20 @@
 }
 
 body {
-  background: linear-gradient(135deg, #a5d5f8, #9e96d1);
+  background-image: url("/assets/img/galaxy.jpg");
+  background-size: cover;
 }
 
 #card {
   width: 100%;
   height: 100vh;
-  color: #fff;
-  opacity: 90%;
   padding: 40px 10px;
   text-align: center;
 }
 
 #header {
   font-size: 22px;
-  color: #2f2762;
+  color: #201c39;
   line-height: 5px;
 }
 
@@ -32,8 +31,8 @@ body {
   display: flex;
   flex-direction: column;
   background: linear-gradient(135deg, #6c92ae, #9e96d1);
-  border: 1px solid #2f2762;
-  color: #2f2762;
+  border: 1px solid #201c39;
+  color: #201c39;
   font-size: 20px;
   padding: 10px;
 }
@@ -44,7 +43,7 @@ body {
 
 #dugme button {
   margin-top: 35px;
-  background-color: rgba(28, 53, 177, 0.2);
+  background-color: rgba(28, 53, 177, 0.5);
   border: none;
   padding: 15px;
   border-radius: 25px;
@@ -52,7 +51,7 @@ body {
 }
 #ocekivane p {
   margin-top: 25px;
-  color: #2f2762;
+  color: #201c39;
   font-size: 20px;
 }
 /********************OSTALI GRADOVI***************************/
@@ -63,30 +62,30 @@ body {
 }
 
 #secondpage input {
-  padding: 10px;
+  padding: 20px;
   border: none;
   border-radius: 25px;
-  font-size: 18px;
+  font-size: 20px;
 }
 #search {
   margin-top: 15px;
   border: none;
   padding: 15px;
   border-radius: 25px;
-  background-color: rgba(28, 53, 177, 0.2);
+  background-color: rgba(28, 53, 177, 0.5);
   font-size: 18px;
 }
 #grad {
   display: none;
   margin-top: 15px;
   flex-direction: column;
-  color: #2f2762;
+  color: #201c39;
   border-radius: 25px;
   width: 250px;
   align-items: center;
   padding: 10px;
-  background-color: rgba(28, 53, 177, 0.2);
-  font-size: 16px;
+  background-color: rgba(28, 53, 177, 0.5);
+  font-size: 20px;
 }
 #grad img {
   max-width: 100%;
