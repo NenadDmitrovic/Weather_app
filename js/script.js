@@ -22,14 +22,12 @@ $(document).ready(function () {
           "°C" +
           "</h1>" +
           "<br>" +
-          "<div>" +
           "<p>" +
           stanje +
           "</p>" +
           "<img src='" +
           img_stanje +
-          "'>" +
-          "</div>"
+          "'>"
       );
     },
   });
@@ -96,7 +94,7 @@ $(document).ready(function () {
 
         const datum = `${mesec} ${dan}`;
 
-        const temperatura = forecastDay.day.avgtemp_c;
+        const temperatura = Math.round(forecastDay.day.avgtemp_c);
         const ikonica = forecastDay.day.condition.icon;
         $("#footer").append(
           "<div id='days'>" +
